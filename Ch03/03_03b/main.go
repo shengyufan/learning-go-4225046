@@ -8,6 +8,7 @@ func main() {
 	fmt.Println("Arrays")
 
 	// array size cannot be extended after initialization
+	// array item cannot be sorted
 	// init method 1
 	var colors [3]string
 	colors[0] = "red"
