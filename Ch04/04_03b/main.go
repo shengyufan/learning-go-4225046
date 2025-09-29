@@ -2,6 +2,13 @@ package main
 
 import "fmt"
 
+/*
+range function can help to iterate the slice and the map
+1. slice range with one param - index
+2. slice range with two params - index and value
+3. map range with two params - key and value
+*/
+
 func main() {
 
 	// colors := []string{"Red", "Green", "Blue"}
@@ -27,6 +34,7 @@ func main() {
 
 	value := 0
 	sum := 0
+	// similar to while loop in other languages
 	for value < 5 {
 		sum += value
 		fmt.Printf("Value: %v\n", value)
@@ -41,7 +49,8 @@ func main() {
 			goto theEnd
 		}
 	}
-	theEnd : println("end of program")
+theEnd:
+	println("end of program")
 	fmt.Printf("Sum: %v\n", sum)
 
 }
